@@ -6,12 +6,13 @@
 Welcome to Chameleon Vision's documentation!
 ============================================
 
+
+
 .. toctree::
    :maxdepth: 1
    :caption: Contents
 
-   uwu uwu
-   ieiwasdfa
+   docs/test
 
 
 Indices and tables
