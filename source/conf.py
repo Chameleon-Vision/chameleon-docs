@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'FRC Team 5940 Documentation'
-copyright = '2019, FRC Team 5940'
-author = 'FRC Team 5940'
+project = 'Chameleon Vision'
+copyright = '2019, Chameleon Vision Team'
+author = 'Chameleon Vision Team'
 
 
 # -- General configuration ---------------------------------------------------
