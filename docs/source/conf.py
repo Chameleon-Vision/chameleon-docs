@@ -29,6 +29,7 @@ author = 'Ori Agranat, Sagi Frimer, Omer Zipory, Banks Troutman, Matt Morley'
 # ones.
 extensions = [
 	"sphinx_rtd_theme",
+    'sphinx.ext.autosectionlabel',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -39,6 +40,8 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
+# Autosection labels prefix document path and filename
+autosectionlabel_prefix_document = True
 
 # -- Options for HTML output -------------------------------------------------
 
