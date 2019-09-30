@@ -12,3 +12,11 @@ Welcome
 
    coprocessor-setup
    supported-hardware
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
