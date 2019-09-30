@@ -16,4 +16,26 @@ You may install the Desktop version, but for optimal performance we recommend Ra
 
 Ensure your Raspberry Pi is connected to a network with internet access via the Ethernet connection.
 
-(Still WIP, more coming soon)
+Log in to the Raspberry Pi (default username is ``pi``, and default password is ``raspberry``), and in the terminal, run these commands:
+
+.. code-block:: bash
+
+    wget bit.ly/chameleon-on-raspi -O install.sh
+    chmod +x install.sh
+    sudo ./install.sh
+
+Once the script has finished running, be sure to reboot.
+
+.. code-block:: bash
+
+    sudo reboot now
+
+Congratulations! Your Raspberry Pi is now set up to run Chameleon Vision!
+
+Once your Raspberry Pi has booted up again, you can run Chameleon Vision with this command in the terminal:
+
+.. code-block:: bash
+
+    java -jar chameleon-vision.jar
+
+More information on getting Chameleon Vision to start automatically on boot-up is coming soon.
