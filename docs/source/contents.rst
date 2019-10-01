@@ -12,6 +12,7 @@ Welcome
 
    coprocessor-setup
    supported-hardware
+   command-line-arguments
 
 
 Indices and tables
