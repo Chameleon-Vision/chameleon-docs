@@ -1,10 +1,8 @@
-.. Chameleon Vision documentation master file, created by
-   sphinx-quickstart on Sun Sep 22 19:43:13 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Chameleon-Vision
+================
 
-Welcome
-=======
+Chameleon Vision is free open-source software for FRC teams to use for
+vision proccesing on their robots.
 
 .. toctree::
    :maxdepth: 2
@@ -14,12 +12,6 @@ Welcome
    supported-hardware
    command-line-arguments
 
-
-Chameleon-Vision
-================
-
-Chameleon Vision is free open-source software for FRC teams to use for
-vision proccesing on their robots.
 
 Authors
 -------
