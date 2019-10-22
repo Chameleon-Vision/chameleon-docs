@@ -17,7 +17,7 @@ steps:
 - script: python -m pip install --upgrade pip setuptools wheel
   displayName: 'Install and upgrade pip'
 
-- script: pip install -r source/requirements.txt
+- script: pip install -r requirements.txt
   displayName: 'Install Requirements'
 
 - script: make html
