@@ -13,6 +13,7 @@ Welcome
    coprocessor-setup
    supported-hardware
    command-line-arguments
+   ui-overview
 
 
 Indices and tables

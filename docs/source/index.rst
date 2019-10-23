@@ -6,11 +6,12 @@ vision proccesing on their robots.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents:  
 
    coprocessor-setup
    supported-hardware
    command-line-arguments
+   ui-overview
 
 
 Authors
