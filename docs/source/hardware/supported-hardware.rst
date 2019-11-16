@@ -41,3 +41,15 @@ The cameras listed below have been tested to be *mostly compatible*, but come wi
 - Microsoft LifeCam Cinema
 - Microsoft LifeCam VX-5500
 - Logitech C310
+
+Known NOT Working Cameras
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+.. warning::
+
+	| These cameras are NOT compatible with Chameleon vision currently
+	| If you really want to use this specific camera please contact a developer on our discord server
+
+	- Pi Camera Moudle (All version)
+	- All network cameras
