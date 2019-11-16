@@ -3,7 +3,7 @@
 Coprocessor Setup
 ==================
 
-For a non Raspberry Pi installation, please follow :ref:`testing pc<>` instructions but do not use the ``--unmanage-network``  :ref:`argument<command-line-arguments>`
+For a non Raspberry Pi installation, please follow :ref:`testing pc<pc-install>` instructions but do not use the ``--unmanage-network``  :ref:`argument<command-line-arguments>`
 
 Raspberry Pi
 ------------

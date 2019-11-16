@@ -1,3 +1,5 @@
+.. _pc-install:
+
 PC testing
 ================
 

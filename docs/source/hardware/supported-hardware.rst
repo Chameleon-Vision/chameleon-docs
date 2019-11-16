@@ -4,6 +4,7 @@ Supported Hardware
 ==================
 The hardware listed here has been tested by the Chameleon Vision developers, and comes with better out-of-the-box compatability guarantees than other hardware.
 
+..  _supported-coprocessors:
 
 Coprocessors
 ------------
