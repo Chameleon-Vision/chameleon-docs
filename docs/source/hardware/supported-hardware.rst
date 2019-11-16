@@ -16,6 +16,7 @@ This list will expand in the future as development progresses.
 
 In addition, any 64Bit Windows or Linux PC is able to run the software natively.
 
+..  _supported-cameras:
 
 Cameras
 -------
