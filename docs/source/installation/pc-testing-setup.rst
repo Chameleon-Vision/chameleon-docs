@@ -33,7 +33,7 @@ Linux
 	sudo apt install bellsoft-java12
 
 Download and run
-----------------------------------
+----------------------------------	
 
 To download the latest .jar file click here_.
 
@@ -51,3 +51,4 @@ Open a command line in the folder with the JAR file you just downloaded then run
 	
 	When running the program on testing computer, use the "--unmanage-network" :ref:`argument<command-line-arguments>`
 	Otherwise your network settings might be changed
+

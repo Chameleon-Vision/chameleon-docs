@@ -10,6 +10,7 @@ Welcome
    :maxdepth: 2
    :caption: Feature overview:
 
+   overview/advantages
    overview/features
 
 .. toctree::
@@ -29,6 +30,7 @@ Welcome
    :maxdepth: 2
    :caption: Getting started:
 
+   getting-started/command-line
    getting-started/ui   
    getting-started/command-line-arguments
    getting-started/networktables
