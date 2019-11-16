@@ -6,12 +6,42 @@ vision proccesing on their robots.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:  
+   :caption: Feature overview:
 
-   coprocessor-setup
-   supported-hardware
-   command-line-arguments
-   ui-overview
+   overview/features
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Hardware:
+
+   hardware/supported-hardware
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Installation:
+ 
+   installation/pi-setup
+   installation/pc-testing-setup
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Getting started:
+
+   getting-started/ui   
+   getting-started/command-line-arguments
+   getting-started/networktables
+   getting-started/building-2d-pipeline
+   getting-started/robot-code-example
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Advanced features:
+
+   advanced/solvePNP
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 
 
 Authors
