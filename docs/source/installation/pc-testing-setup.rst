@@ -27,7 +27,7 @@ TBA
 Linux
 ~~~~~~~~~
 
-.. code-block:: guess
+.. code-block:: bash
 
 	sudo apt update
 	sudo apt install bellsoft-java12
@@ -43,12 +43,12 @@ Remame the file you downloaded to chameleon-vision.jar
 
 Open a command line in the folder with the JAR file you just downloaded then run
 
-.. code-block:: java
+.. code-block:: bash
 
 	java -jar chameleon-vision.jar --unmanage-network
 
 .. warning::
 	
-	When running the program on testing computer, use the "--unmanage-network" :ref:`argument<command-line-arguments>`
+	When running the program on testing computer, use the ``--unmanage-network``  :ref:`argument<command-line-arguments>`
 	Otherwise your network settings might be changed
 

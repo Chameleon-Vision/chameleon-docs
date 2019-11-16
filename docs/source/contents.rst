@@ -23,7 +23,7 @@ Welcome
    :maxdepth: 1
    :caption: Installation:
  
-   installation/pi-setup
+   installation/coprocessor-setup
    installation/pc-testing-setup
 
 .. toctree::
