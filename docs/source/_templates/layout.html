@@ -10,6 +10,21 @@
     .wy-nav-side {
       background: #151515;
     }
+    .wy-menu-vertical li.on a,.wy-menu-vertical li.current>a {
+      background:#151515; 
+      color: #41b741
+    }
+    .wy-menu-vertical li.current {
+      background: #303030;
+    }    
+    .wy-menu-vertical li.toctree-l2.current>a
+    {
+      background: #303030;
+    }
+    .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a
+    {
+       background: #404040;
+    }
     .wy-body-for-nav{
       background: #DDDDDD;
     }
@@ -17,14 +32,18 @@
     {      
       background: #EEEEEE;
     }
+    /* Text color */
     p.caption 
     {
-      color: #41b741
-      !important;
+      color: #41b741 !important;
     }
     a:visited,a
     {
-      color:#41b741;
+      color: #109110;
+    }
+    .wy-menu-vertical li.toctree-l2 a
+    {
+      color: #41b741;
     }
   </style>
 {% endblock %}
