@@ -25,17 +25,52 @@ The user interface has two main tabs:
 Vision tab
 ^^^^^^^^^^^^
 
+The vision tab updates the processed image in real-time to help you tune and ajust the vision values
+
+
+.. image:: /images/UI/video.gif
+
+When configuring the vision pipeline, there are four main steps (one per tab): input, thresholding, contour sorting and output.
+
+
+
 Camera and pipeline selection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+| Choose one camera from the drop-down menu.
+The list contains :ref:`detected cameras<detected-cameras>`.
+
+| Every camera has at least one pipeline but you can add more 
+| You might want to rename the camera and the pipeline(s) so it will be clearer which camera is which and the pipeline's purpose
+| When you change and ajust values in the following steps you will change the settings of the pipeline currently selected
+
+.. image:: /images/UI/cameraPipelineSelect.PNG
 
 Input
 ~~~~~~
 
+The input tab adjust camera exposure settings and camera orientation:
+
+.. image:: /images/UI/lowExposure.PNG
+   :width: 600
+
 Threshold
 ~~~~~~~~~~
 
+The thresholding tab allows teams to adjust the Hue/Saturation/Value settings to only allow in parts of the image that are the same color as the vision tape, as well as allows teams to erode or dilate the contours to eliminate small speckles
+
+For a more indepth explaination of erode and dilate visit `opencv's page <https://docs.opencv.org/2.4/doc/tutorials/imgproc/erosion_dilatation/erosion_dilatation.html#morphological-operations>`_
+
+
+.. image:: /images/UI/hsvPart1.PNG
+   :width: 600
+
+.. image:: /images/UI/hsvPart2.PNG
+   :width: 600
+
 Contours
 ~~~~~~~~~
+
 
 Output
 ~~~~~~~~
@@ -67,22 +102,7 @@ After configuring and tuning your pipeline settings the changes will be saved au
 Configuring vision settings
 ---------------------------
 
-.. image:: /images/UI/video.gif
 
-When configuring the vision pipeline, there are four main steps (one per tab): input, thresholding, contour sorting and output.
-
-The input tab adjust camera exposure settings and camera orientation:
-
-.. image:: /images/UI/lowExposure.PNG
-   :width: 600
-
-The thresholding tab allows teams to adjust the Hue/Saturation/Value settings to only allow in parts of the image that are the same color as the vision tape, as well as allows teams to erode or dilate the contours to eliminate small speckles:
-
-.. image:: /images/UI/hsvPart1.PNG
-   :width: 600
-
-.. image:: /images/UI/hsvPart2.PNG
-   :width: 600
 
 The contours tab has sliders which constrain the contours which can be considered for sorting. teams can adjust the minimum or maximum area, aspect ratio (the ratio of width to height of bounding rect of the object) or extent (the ratio of contour area to bounding rectangle area). This tab also allows teams to select only one target or to group two together.
 
