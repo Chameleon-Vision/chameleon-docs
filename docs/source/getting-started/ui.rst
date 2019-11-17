@@ -24,6 +24,8 @@ The user interface has two main tabs:
 .. image:: /images/UI/generaltab.PNG
    :width: 600
 
+.. _learn-ui-vision:
+
 Vision tab
 ^^^^^^^^^^^^
 
@@ -48,6 +50,9 @@ Camera and pipeline selection
 
 .. image:: /images/UI/cameraPipelineSelect.PNG
 
+
+.. _learn-ui-input:
+
 Input
 ~~~~~~
 
@@ -55,6 +60,8 @@ The input tab adjust camera exposure settings and camera orientation:
 
 .. image:: /images/UI/lowExposure.PNG
    :width: 600
+
+.. _learn-ui-threshold:
 
 Threshold
 ~~~~~~~~~~
@@ -70,6 +77,9 @@ For a more indepth explaination of erode and dilate visit `opencv's page <https:
 .. image:: /images/UI/hsvPart2.PNG
    :width: 600
 
+
+.. _learn-ui-contours:
+
 Contours
 ~~~~~~~~~
 
@@ -81,6 +91,8 @@ The contours tab has sliders which constrain the contours which can be considere
 .. image:: /images/UI/dualGroup.PNG
    :width: 600
 
+
+.. _learn-ui-output:
 
 Output
 ~~~~~~~~
@@ -96,10 +108,14 @@ The output tab controls how the contours which make it through thesholding and f
 
 This tab also allows teams to perform crosshair calibration. Instead of ofsetting values in code, teams can line up their robot perfectly by hand, click "calibrate A" and "calibrate B", and the crosshair will be set to the current position. If the robot needs to shoot gamepieces into a goal from different distances, teams can calibrate A at their closest scoring position and B at their furthest scoring location, and the crosshair will linearly interpolate between the two offsets based on distance (area) from the target.
 
+.. _learn-ui-binary-image:
+
 Image / Binary Image
 ~~~~~~~~~~~~~~~~~~~~~
 
 On the right in the vision tab you will see the camera's image, this is the image published. You can also choose ``Threshold`` to see a binay image of the threshold filtering (HSV erode % dilate). A white represents a pixel that passed the threshold filtering and a black one is a pixel that didn't pass the filtering. You can also see the FPS, pitch and yaw of the target
+
+.. _learn-ui-settings:
 
 Settings tab
 ^^^^^^^^^^^^

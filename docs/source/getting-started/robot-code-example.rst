@@ -1,3 +1,5 @@
+.. _robot-code:
+
 Robot code example
 ===================
 
