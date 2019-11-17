@@ -8,13 +8,61 @@ In order to connect to the UI you will need to enter in a web browser the Chamel
 
 For example if the coprocessor's ip is 10.15.77.13 and the port is 5888 then enter in the browser ``10.15.77.13:5888``
 
-The user interface has two main tabs: Vision and Settings. The Vision tab allows teams to tune their pipeline settings, and the settings tab configures networking and camera resolution:
+Getting familiar with the UI
+-----------------------------
+
+The user interface has two main tabs:
+
+- The Vision tab: allows teams to tune their pipeline values, it updates in real-time.
+- The Settings tab: configures networking and camera settings that dont change often like the camera's resolution
 
 .. image:: /images/UI/homePage.PNG
    :width: 600
 
 .. image:: /images/UI/generaltab.PNG
    :width: 600
+
+Vision tab
+^^^^^^^^^^^^
+
+Camera and pipeline selection
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Input
+~~~~~~
+
+Threshold
+~~~~~~~~~~
+
+Contours
+~~~~~~~~~
+
+Output
+~~~~~~~~
+
+Image / Binary Image
+~~~~~~~~~~~~~~~~~~~~~
+
+Settings tab
+^^^^^^^^^^^^
+
+General
+~~~~~~~~
+
+Cameras
+~~~~~~~~
+
+Driver mode
+~~~~~~~~~~~~~
+
+Saving changes
+------------------
+
+After configuring and tuning your pipeline settings the changes will be saved automatically, alternatively it can be saved by pressing the ``Save`` button.
+
+.. note::
+	On version 1.1.4 or older, the changes are NOT saved automatically at all. They are only saved when the client closes it's session (close the browser tab or refresh the page).
+
 
 Configuring vision settings
 ---------------------------
