@@ -108,12 +108,20 @@ The output tab controls how the contours which make it through thesholding and f
 
 This tab also allows teams to perform crosshair calibration. Instead of ofsetting values in code, teams can line up their robot perfectly by hand, click "calibrate A" and "calibrate B", and the crosshair will be set to the current position. If the robot needs to shoot gamepieces into a goal from different distances, teams can calibrate A at their closest scoring position and B at their furthest scoring location, and the crosshair will linearly interpolate between the two offsets based on distance (area) from the target.
 
+
+3D 
+~~~~~~
+
+The 3D tab is used for :ref:`SolvePNP<solvePNP>`. This is an advanced feature which is not needed for 2D pipelines.
+
 .. _learn-ui-binary-image:
 
 Image / Binary Image
 ~~~~~~~~~~~~~~~~~~~~~
 
 On the right in the vision tab you will see the camera's image, this is the image published. You can also choose ``Threshold`` to see a binay image of the threshold filtering (HSV erode % dilate). A white represents a pixel that passed the threshold filtering and a black one is a pixel that didn't pass the filtering. You can also see the FPS, pitch and yaw of the target
+
+
 
 .. _learn-ui-settings:
 
@@ -132,13 +140,18 @@ Cameras
 
 Resolution and fps for each :ref:`detected cameras<detected-cameras>`
 
-Driver mode
-~~~~~~~~~~~~~
+.. _camera-ajustments:
 
+Camera Ajustments 
+~~~~~~~~~~~~~~~~~~
+
+This tab contains driver mode and 3d settings for each camera.
 Driver mode is a option that the vision processing wont run and wont disturb the driver so he could use the camera. In this tab you can set the brightness and exposure for each :ref:`detected cameras<detected-cameras>`.
 
 .. note::
    It might take a couple of seconds for the camera to switch it's exposure settings so switching driver mode on or off can cause a problem with the vision processing/ the driver's view for a few seconds
+
+You can also calibrate your 3D model as explained :ref:`here<solvePNP>`
 
 Saving changes
 ------------------

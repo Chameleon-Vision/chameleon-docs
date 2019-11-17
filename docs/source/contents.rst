@@ -30,18 +30,19 @@ Welcome
    :maxdepth: 2
    :caption: Getting started:
 
-   getting-started/command-line
+   
    getting-started/ui   
-   getting-started/command-line-arguments
-   getting-started/networktables
+   getting-started/command-line-arguments   
    getting-started/building-2d-pipeline
    getting-started/robot-code-example
-
+   getting-started/command-line
+   getting-started/networktables
 
 .. toctree::
    :maxdepth: 2
    :caption: Advanced features:
 
+   advanced/timestamp
    advanced/solvePNP
 
 
