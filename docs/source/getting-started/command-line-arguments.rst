@@ -22,7 +22,7 @@ Chameleon Vision supports a few command-line arguments to enable or disable cert
      - None
      - Disables the automatic network settings manager.
 
-| To use this commands add the argument after the run command for example
+| To use this commands add the argument after the run command, for example
 
 .. code-block:: bash
 
