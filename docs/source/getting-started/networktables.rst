@@ -12,7 +12,7 @@ Networktables
 
 .. explanation about what it is, and outlineviewer...
 
-.. image:: /images/networktables/outlineviewer.png
+.. image:: /images/outlineviewer.png
    :width: 600
 
 | You can see the base folder `Root` that has `chameleon-vision` and `CameraPublisher` under it.
