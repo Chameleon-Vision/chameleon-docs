@@ -8,6 +8,8 @@ In order to connect to the UI you will need to enter in a web browser the Chamel
 
 For example if the coprocessor's ip is 10.15.77.13 and the port is 5888 then enter in the browser ``10.15.77.13:5888``
 
+.. _learn-ui:
+
 Getting familiar with the UI
 -----------------------------
 
@@ -38,7 +40,7 @@ Camera and pipeline selection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 | Choose one camera from the drop-down menu.
-The list contains :ref:`detected cameras<detected-cameras>`.
+| The list contains :ref:`detected cameras<detected-cameras>`.
 
 | Every camera has at least one pipeline but you can add more 
 | You might want to rename the camera and the pipeline(s) so it will be clearer which camera is which and the pipeline's purpose
@@ -71,24 +73,56 @@ For a more indepth explaination of erode and dilate visit `opencv's page <https:
 Contours
 ~~~~~~~~~
 
+The contours tab has sliders which constrain the contours which can be considered for sorting. Teams can adjust the minimum or maximum area, aspect ratio (the ratio of width to height of bounding rect of the object) or extent (the ratio of contour area to bounding rectangle area). This tab also allows teams to select only one target or to group two together. Another filtering option is Speckle rejection, it ignores small contours "speckles" compared to the lagest contour seen
+
+.. image:: /images/UI/singleGroup.PNG
+   :width: 600
+
+.. image:: /images/UI/dualGroup.PNG
+   :width: 600
+
 
 Output
 ~~~~~~~~
 
+The output tab controls how the contours which make it through thesholding and filtering are sent as the target. teams can sort contours by leftmost/rightmost/topmost/bottommost, larget, smallest, or closest to the crosshair(Centermost).
+
+.. image:: /images/UI/rightmostSort.PNG
+   :width: 600
+
+.. image:: /images/UI/smallestSort.PNG
+   :width: 600
+
+
+This tab also allows teams to perform crosshair calibration. Instead of ofsetting values in code, teams can line up their robot perfectly by hand, click "calibrate A" and "calibrate B", and the crosshair will be set to the current position. If the robot needs to shoot gamepieces into a goal from different distances, teams can calibrate A at their closest scoring position and B at their furthest scoring location, and the crosshair will linearly interpolate between the two offsets based on distance (area) from the target.
+
 Image / Binary Image
 ~~~~~~~~~~~~~~~~~~~~~
+
+On the right in the vision tab you will see the camera's image, this is the image published. You can also choose ``Threshold`` to see a binay image of the threshold filtering (HSV erode % dilate). A white represents a pixel that passed the threshold filtering and a black one is a pixel that didn't pass the filtering. You can also see the FPS, pitch and yaw of the target
 
 Settings tab
 ^^^^^^^^^^^^
 
+In the settings tab you change can settings in couple of categories
+
 General
 ~~~~~~~~
+
+Network settings and team number
 
 Cameras
 ~~~~~~~~
 
+Resolution and fps for each :ref:`detected cameras<detected-cameras>`
+
 Driver mode
 ~~~~~~~~~~~~~
+
+Driver mode is a option that the vision processing wont run and wont disturb the driver so he could use the camera. In this tab you can set the brightness and exposure for each :ref:`detected cameras<detected-cameras>`.
+
+.. note::
+   It might take a couple of seconds for the camera to switch it's exposure settings so switching driver mode on or off can cause a problem with the vision processing/ the driver's view for a few seconds
 
 Saving changes
 ------------------
@@ -97,27 +131,3 @@ After configuring and tuning your pipeline settings the changes will be saved au
 
 .. note::
 	On version 1.1.4 or older, the changes are NOT saved automatically at all. They are only saved when the client closes it's session (close the browser tab or refresh the page).
-
-
-Configuring vision settings
----------------------------
-
-
-
-The contours tab has sliders which constrain the contours which can be considered for sorting. teams can adjust the minimum or maximum area, aspect ratio (the ratio of width to height of bounding rect of the object) or extent (the ratio of contour area to bounding rectangle area). This tab also allows teams to select only one target or to group two together.
-
-.. image:: /images/UI/singleGroup.PNG
-   :width: 600
-
-.. image:: /images/UI/dualGroup.PNG
-   :width: 600
-
-The output tab controls how the contours which make it through thesholding and filtering are sent as the target. teams can sort contours by leftmost/rightmost/topmost/bottommost, larget, smallest, or closest to the crosshair.
-
-.. image:: /images/UI/rightmostSort.PNG
-   :width: 600
-
-.. image:: /images/UI/smallestSort.PNG
-   :width: 600
-
-This tab also allows teams to perform crosshair calibration. Instead of ofsetting values in code, teams can line up their robot perfectly by hand, click "calibrate A" and "calibrate B", and the crosshair will be set to the current position. If the robot needs to shoot gamepieces into a goal from different distances, teams can calibrate A at their closest scoring position and B at their furthest scoring location, and the crosshair will linearly interpolate between the two offsets based on distance (area) from the target.
