@@ -4,6 +4,7 @@ Chameleon-Vision
 Chameleon Vision is free open-source software for FRC teams to use for
 vision proccesing on their robots.
 
+
 .. toctree::
    :maxdepth: 2
    :caption: Feature overview:
@@ -28,20 +29,20 @@ vision proccesing on their robots.
    :maxdepth: 2
    :caption: Getting started:
 
-   getting-started/command-line
+   
    getting-started/ui   
-   getting-started/command-line-arguments
-   getting-started/networktables
+   getting-started/command-line-arguments   
    getting-started/building-2d-pipeline
    getting-started/robot-code-example
-
+   getting-started/command-line
+   getting-started/networktables
 
 .. toctree::
    :maxdepth: 2
    :caption: Advanced features:
 
+   advanced/timestamp
    advanced/solvePNP
-
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 
