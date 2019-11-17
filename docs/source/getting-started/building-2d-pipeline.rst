@@ -2,7 +2,7 @@ Building a 2D pipeline
 ======================
 
 | After reading :ref:`getting familiar with the UI<learn-ui>` you can create your pipeline
-| We will go over all the :ref:`vision tabs<learn-ui-vision>` one by one
+| We will go over all (except 3D) the :ref:`vision tabs<learn-ui-vision>` one by one
 
 Step 0: :ref:`Settings<learn-ui-settings>`
 -------------------------------------------
