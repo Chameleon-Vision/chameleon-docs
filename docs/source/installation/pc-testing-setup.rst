@@ -14,7 +14,7 @@ How do you know that version are you running?
 
 Run java -version in your command line,
 
-You sould get a similar result
+You should get a similar result
 
 .. image:: /images/installation/java-version.png
 
@@ -39,7 +39,7 @@ Download and run
 To download the latest .jar file click `here
 <https://sourceforge.net/projects/chameleon-vision/files/latest/download/>`_
 
-Remame the file you downloaded to chameleon-vision.jar
+Rename the file you downloaded to chameleon-vision.jar
 
 Open a command line in the folder with the JAR file you just downloaded then run
 

@@ -7,7 +7,7 @@ Networktables
 | Network tables are a way of communication between the RoboRIO and other devices on the robot's network like the driver's PC and the coprocessor that runs Chameleon Vision.
 
 | You can think of Network tables as a shared folder accessable from all network devices.
-| Each folder can have another folder(s) and or data(s) inside. Each data field has a `key` and a `value`
+| Each folder can have another folder(s) and or data(s) inside. Every data field has a `key` and a `value`
 | To view the network table you can use a java program from WPI lib called outlineviewer.
 
 .. explanation about what it is, and outlineviewer...
@@ -38,7 +38,7 @@ Changeable values
 -------------------
 If a device on the network for example the RoboRIO or the driver's PC changes one of these values the program will react to it
 
-- pipeline: the index number of the pipeline that the program should execute. If it changes the program will execute the pipeline that has a index as the number it recived.
+- pipeline: the index number of the pipeline that the program should execute. If it changes the program will execute the pipeline that has a index as the number it received.
 
 - driver_mode: When the driver wants to use the camera for driving he can turn this boolean to `true` and Chamelon Vision will not process the image and wont draw on it. It will also set brightness and exposure to values defined under :ref:`camera ajustments<camera-ajustments>`
 

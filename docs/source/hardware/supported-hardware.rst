@@ -52,5 +52,5 @@ Known NOT Working Cameras
 	| These cameras are NOT compatible with Chameleon vision currently
 	| If you really want to use this specific camera please contact a developer on our discord server
 
-	- Pi Camera Module  (All version)
+	- Pi Camera Module (All version)
 	- All network cameras

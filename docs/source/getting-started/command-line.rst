@@ -5,8 +5,8 @@ Command line Information
 | This information is mainly for debugging and is not needed most of the time
 
 .. note::
-	| Some of the output is not controlled by Chameleon vision directly and is printed by external libraries.
-	| Please ignore these lines, and pay attention to the output thats explained here
+	| Some output prints is not controlled by Chameleon vision directly and is printed by external libraries.
+	| Please ignore these lines, and pay attention to the output that's explained here
 
 
 ..  _webserver-port:
@@ -14,7 +14,7 @@ Command line Information
 Webserver port
 ------------------
 
-| When the program initilizes it will print the webserver in a similar form ``Starting Webserver at port XXXX`` where XXXX is the port (Default 5888)
+| When the program initializes it will print the webserver in a similar form ``Starting Webserver at port XXXX`` where XXXX is the port (Default 5800)
 | this port is needed when connecting to the UI.
 
 
@@ -34,13 +34,13 @@ Camera initialization
 
 | For each camera ``CS: YOUR_CAMERA_NAME: Connecting to USB camera on YOUR_CAMERA_PATH`` will be printed and also the time it took to initialize it (it should be less than a second)
 
-| If your camera hasnt appeared in this print there is probebly a problem somewhere with it, please contact a developer in the discord server
+| If your camera hasn't appeared in this print there is probably a problem somewhere with it, please contact a developer in the discord server
 
-Network managment
+Network management
 ------------------
 
 | On linux devices the program can change the network adapter settings to settings that enable the coprocessor to work on the robot
-| On windows this feature isnt supported so it might warn the user about it
+| On windows this feature isn't supported so it might warn the user about it
 
 
 Networktable State

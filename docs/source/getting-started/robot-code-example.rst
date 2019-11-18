@@ -38,8 +38,8 @@ Also the code will print periodically the yaw angle(horizontal angle).
 
 Vision align and drive code example
 ------------------------------------
-| This is an example code in `Java` so you can how to implement Chameleon Vision in your code.
-| Is is a one class, iterative robot that is written as an example, please write a command based code as your main code.
+| This is an example code in `Java` so you can understand how to implement Chameleon Vision in your code.
+| Is a one class, iterative robot that is written as an example, please write a command based code as your main code.
 
 | 
 | This imaginary robot has 4 spark motors in the drivetrain.
