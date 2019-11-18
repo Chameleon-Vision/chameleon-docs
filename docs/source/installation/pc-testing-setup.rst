@@ -20,23 +20,24 @@ You sould get a similar result
 
 Installing JDK 12
 ^^^^^^^^^^^^^^^^^^^
+
 Windows
 ~~~~~~~~
-download jdk 12 from this `link <https://www.oracle.com/technetwork/java/javase/downloads/index.html>`_ and install 
+
+Download jdk 12 from this `link <https://www.oracle.com/technetwork/java/javase/downloads/index.html>`_ and install 
 
 
 
 Linux
 ~~~~~~~~~
 
-follow the guide `here <https://bell-sw.com/pages/liberica_install_guide-12.0.2/>`_
+Follow `this <https://bell-sw.com/pages/liberica_install_guide-12.0.2/>`_ guide 
 
 Download and run
 ----------------------------------	
 
-To download the latest .jar file click here_.
-
-.. _here: https://sourceforge.net/projects/chameleon-vision/files/latest/download/
+To download the latest .jar file click `here
+<https://sourceforge.net/projects/chameleon-vision/files/latest/download/>`_
 
 Remame the file you downloaded to chameleon-vision.jar
 
