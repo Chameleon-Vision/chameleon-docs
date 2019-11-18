@@ -31,8 +31,12 @@ Vision tab
 
 The vision tab updates the processed image in real-time to help you tune and ajust the vision values
 
-
-.. image:: /images/UI/video.gif
+.. raw:: html
+	
+	<video width="640" controls>
+		<source src="../_static/video.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
 
 When configuring the vision pipeline, there are four main steps (one per tab): input, thresholding, contour sorting and output.
 
