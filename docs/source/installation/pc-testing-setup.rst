@@ -22,17 +22,16 @@ Installing JDK 12
 ^^^^^^^^^^^^^^^^^^^
 Windows
 ~~~~~~~~
-TBA
+download jdk 12 from this link_. and install 
+.. _link:_https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 
 
 Linux
 ~~~~~~~~~
 
-.. code-block:: bash
-
-	sudo apt update
-	sudo apt install bellsoft-java12
+follow the guide here_.
+.. _here:_https://bell-sw.com/pages/liberica_install_guide-12.0.2/
 
 Download and run
 ----------------------------------	
