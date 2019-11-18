@@ -6,7 +6,7 @@ Opening the UI
 
 In order to connect to the UI you will need to enter in a web browser the Chameleon Vision's computer IP followed by ``:``  and the :ref:`webserver port<webserver-port>`
 
-For example if the coprocessor's ip is 10.15.77.13 and the port is 5888 then enter in the browser ``10.15.77.13:5888``
+For example if the coprocessor's ip is 10.15.77.13 and the port is 5800 then enter in the browser ``10.15.77.13:5800``
 
 .. _learn-ui:
 
