@@ -13,7 +13,7 @@ For example if the coprocessor's ip is 10.15.77.13 and the port is 5800 then ent
 Getting familiar with the UI
 -----------------------------
 
-The user interface has two main tabs:
+The user interface has two main tabs, you can switch between them in the top-right corner:
 
 - The Vision tab: allows teams to tune their pipeline values, it updates in real-time.
 - The Settings tab: configures networking and camera settings that don't change often like the camera's resolution
