@@ -43,6 +43,6 @@ Multiple Target with intersection point can filter out even more
 Camera offset calibration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sometimes its not possible and inconvenient to place the camera in the center of the robot,
+Sometimes it's not possible and inconvenient to place the camera in the center of the robot,
 With a very short calibration Chameleon vision can account for that offset
 

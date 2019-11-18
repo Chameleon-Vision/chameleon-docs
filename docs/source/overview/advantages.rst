@@ -35,4 +35,4 @@ Multiple Cameras and Pipelines
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 | Chameleon Vision can process multiple cameras at once
 | It can also have different  pipelines for the same camera, enabling vision processing for different targets with the same camera.
-| For example the same camera can be used to track a field element and later to track it's target 
+| For example the same camera can be used to track a field element and later to track its target 
