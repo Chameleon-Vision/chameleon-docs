@@ -1,48 +1,31 @@
 Features
-==========
+===========
 
-Camera Features
-------------------
+Filtering
+^^^^^^^^^^^
+Filter out your target from the background with HSV (Hue, Saturation, Vue) and then can be fine tuned using area, width, height, ratios settings. Using advanced multi-target intersection filtering, you can filter even more.
 
-Chameleon Vision support almost any :ref:`USB camera<supported-cameras>`
+
+Offset Calibration
+^^^^^^^^^^^^^^^^^^^^
+More often than not, it is not possible and/or inconvenient to place the camera in the center of the robot. Using special Chameleon Vision tools, it is easy to make a software fix for the physical offset from the true center.
+
+
+Widespread Camera Support
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Chameleon Vision supports a large family of :ref:`USB camera<supported-cameras>`. This allows you to get the most flexibility compared to other solutions. The Chameleon Vision Team recommends the PS3ye Camera (found on Amazon and other vendors) for maximum performance. 
 
 .. note::
 	
-	The Pi Cam and web cameras are NOT supported currently
+	The Pi Camera and all network cameras are both NOT currently supported.
 
 
-Control USB cameras
-^^^^^^^^^^^^^^^^^^^^
-
-Chameleon Vision can set resolution, fps, brightness and exposure for each USB camera that it has :ref:`detected<detected-cameras>`
-
-It also publishes the camera view, which is divisible to save bandwidth. Also it can flip the image by 180 degrees if the camera is mounted upside-down
-
-
-Driver mode settings
+Easy Customization
 ^^^^^^^^^^^^^^^^^^^^^^
 
-The vision cameras can be used by the robot's driver to see better
-When driver mode is enabled the brightness and exposure is reverted and no vision marks are drawn on the image
+Chameleon Vision can set resolution, FRC, brightness and exposure for each USB camera that it has :ref:`detected<detected-cameras>`. It also publishes the camera view, which is divisible to save bandwidth. This customization allows you to ensure that Chameleon Vision works how you want it to.
 
-
-Vision Features
------------------
-
-Filtering
-^^^^^^^^^^^^^^^^
-
-Filter out your target from the background with HSV filtering, area, width height ratio and so much more
-
-.. note::
-
-	It's recommended to install a green L.E.D strip around the camera
-
-Multiple Target with intersection point can filter out even more
-
-Camera offset calibration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Sometimes it's not possible and inconvenient to place the camera in the center of the robot,
-With a very short calibration Chameleon vision can account for that offset
-
+Driver Mode Settings
+^^^^^^^^^^^^^^^^^^^^^^
+Using Chameleon Vision, vision cameras can be used for drivers vision within a match (called 'Driver Mode'), allowing you to take advantage of the software speed.
