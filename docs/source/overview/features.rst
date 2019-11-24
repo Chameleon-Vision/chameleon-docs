@@ -14,7 +14,7 @@ More often than not, it is not possible and/or inconvenient to place the camera 
 Widespread Camera Support
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Chameleon Vision supports a large family of :ref:`USB camera<supported-cameras>`. This allows you to get the most flexibility compared to other solutions. The Chameleon Vision Team recommends the `PS3ye <https://www.amazon.com/Sony-Station-Camera-Packaging-PlayStation-3/dp/B0735KNH2X/ref=sr_1_1?keywords=playstation+camera+3&qid=1574467704&sr=8-1>`_ for maximum performance. 
+Chameleon Vision supports a large family of :ref:`USB camera<supported-cameras>`. This allows you to get the most flexibility compared to other solutions. The Chameleon Vision Team recommends the PS3ye Camera (found on Amazon and other vendors) for maximum performance. 
 
 .. note::
 	
