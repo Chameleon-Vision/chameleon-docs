@@ -19,7 +19,7 @@ Log in to the Raspberry Pi (default username is ``pi``, and default password is 
 
 .. code-block:: bash
 
-    wget bit.ly/chameleon-on-raspi -O install.sh
+    wget bit.ly/chameleon-on-pi-v01 -O install.sh
     chmod +x install.sh
     sudo ./install.sh
 
