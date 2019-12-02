@@ -19,7 +19,7 @@ Log in to the Raspberry Pi (default username is ``pi``, and default password is 
 
 .. code-block:: bash
 
-    wget bit.ly/chameleon-on-pi-v01 -O install.sh
+    wget https://git.io/JeMoW -O install.sh
     chmod +x install.sh
     sudo ./install.sh
 
@@ -35,6 +35,14 @@ Once your Raspberry Pi has booted up again, you can run Chameleon Vision with th
 
 .. code-block:: bash
 
-    java -jar chameleon-vision.jar
+    sudo java -jar chameleon-vision.jar
+
+And to get the latest version of Chameleon Vision...
+
+.. code-block:: bash
+
+    wget https://git.io/JeMol -O update.sh
+    chmod +x update.sh
+    sudo ./update.sh
 
 More information on getting Chameleon Vision to start automatically on boot-up is coming soon.
