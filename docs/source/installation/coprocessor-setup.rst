@@ -19,7 +19,7 @@ Log in to the Raspberry Pi (default username is ``pi``, and default password is 
 
 .. code-block:: bash
 
-    wget https://git.io/JeMoW -O install.sh
+    wget https://git.io/JeDUk -O install.sh
     chmod +x install.sh
     sudo ./install.sh
 
@@ -41,7 +41,7 @@ And to get the latest version of Chameleon Vision...
 
 .. code-block:: bash
 
-    wget https://git.io/JeMol -O update.sh
+    wget https://git.io/JeDUL -O update.sh
     chmod +x update.sh
     sudo ./update.sh
 
