@@ -1,33 +1,32 @@
-Chameleon-Vision
+Chameleon Vision
 ================
 
-Chameleon Vision is free open-source software for FRC teams to use for
-vision proccesing on their robots.
+Chameleon Vision is a free open-source software that allows FRC teams to easily perform vision processing on their robots.
 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Feature Overview:
+   :caption: Overview:
 
    overview/advantages
    overview/features
 
 .. toctree::
    :maxdepth: 2
-   :caption: Hardware:
+   :caption: Hardware
 
    hardware/supported-hardware
 
 .. toctree::
    :maxdepth: 1
-   :caption: Installation:
+   :caption: Installation
  
    installation/coprocessor-setup
    installation/pc-testing-setup
 
 .. toctree::
    :maxdepth: 2
-   :caption: Getting started:
+   :caption: Getting Started
 
    
    getting-started/ui   
@@ -39,23 +38,24 @@ vision proccesing on their robots.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Advanced features:
+   :caption: Advanced Features
 
    advanced/timestamp
    advanced/solvePNP
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contact us:
+   :caption: Contact Us
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
    contact-us
-   
+
+
 Authors
 -------
 
 -  **Sagi Frimer** - *initial work* - websocket, settings manager, UI
 
--  **Ori Agranat** - *main coder* - vision loop, UI, websocket,
+-  **Ori Agranat** - *main developer* - vision loop, UI, websocket,
    networktables
 
 -  **Omer Zipory** - *developer* - vision loop, websocket, networking
