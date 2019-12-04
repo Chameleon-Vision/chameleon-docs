@@ -4,4 +4,6 @@
 
 Chameleon Vision is free open-source software for FRC teams to use for vision proccesing on their robots.
 
-[Contribution guidelines for this project](CONTRIBUTING.md)
+This repository is the source code for our ReadTheDocs documetation which can be found [Here](https://chameleon-vision.readthedocs.io/en/latest/contents.html#)
+
+[Contribution and fromatting guidelines for this project](CONTRIBUTING.md)
