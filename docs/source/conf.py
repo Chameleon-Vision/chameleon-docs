@@ -60,5 +60,5 @@ html_favicon = 'images/logo.ico'
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
-    'style_nav_header_background': '#202020'
+    'style_nav_header_background': '#2c2c2c'
 }
