@@ -36,8 +36,8 @@ These cameras are *mostly compatible*, but come with *no guarantees* as to full 
 
 .. warning::
 
-	 These cameras are currently NOT compatible with Chameleon Vision currently.
-	 Please :ref:`contact us<contact-us>` if you wish to use one of these cameras. 
+	These cameras are currently NOT compatible with Chameleon Vision yet.
+	Please :ref:`contact us<contact-us>` if you wish to use one of these cameras.
 
 	- Pi Camera Module (all versions)
 	- Network Cameras (such as the Axis Camera)
