@@ -16,7 +16,7 @@ The coprocessors listed below have been tested to be fully compatible with all C
 
 This list will expand in the future as development progresses.
 
-In addition, any 64Bit Windows or Linux PC is able to run the software natively.
+In addition, any 64-bit Windows or Linux PC is able to run the software natively.
 
 ..  _supported-cameras:
 
@@ -27,9 +27,7 @@ Just as important as the coprocessor you choose, are the cameras you connect to 
 
 Fully Supported Cameras
 ^^^^^^^^^^^^^^^^^^^^^^^
-
-The cameras listed below have been tested to be *fully compatible* with all Chameleon Vision features.
-Use of these cameras is highly recommended for the best experience with Chameleon Vision.
+The cameras listed below have been tested to be *fully compatible* with all Chameleon Vision features. Use of these cameras is highly recommended for the best experience with Chameleon Vision.
 
 - PS3 Eyecam (Linux only)
 - Microsoft LifeCam HD-3000
@@ -46,11 +44,10 @@ The cameras listed below have been tested to be *mostly compatible*, but come wi
 Known NOT Working Cameras
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
 .. warning::
 
-	| These cameras are NOT compatible with Chameleon vision currently
-	| If you really want to use this specific camera please contact a developer on our discord server
+	| These cameras are NOT compatible with Chameleon vision currently.
+	| If you really want to use this specific camera please contact a developer on our Discord server.
 
 	- Pi Camera Module (All version)
 	- All network cameras

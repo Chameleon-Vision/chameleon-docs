@@ -7,7 +7,7 @@ vision proccesing on their robots.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Feature overview:
+   :caption: Feature Overview:
 
    overview/advantages
    overview/features
