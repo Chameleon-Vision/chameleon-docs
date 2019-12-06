@@ -9,41 +9,35 @@ Coprocessor Setup
 Raspberry Pi
 ------------
 
-Software Install
-^^^^^^^^^^^^^^^^
-Follow the instructions `here <https://www.raspberrypi.org/documentation/installation/installing-images/>`_ on getting Raspbian on your SD card.
-You may install the Desktop version, but for optimal performance we recommend Raspbian Buster Lite.
+Chameleon Vision can run on most operating systems available for the Raspberry Pi.
+However, it is recommended that you install Rasbian Buster Lite, available `here <https://www.raspberrypi.org/downloads/raspbian/>`_.
+Follow the `instructions <https://www.raspberrypi.org/documentation/installation/installing-images/>`_ to install Raspbian onto an SD card.
 
-Ensure your Raspberry Pi is connected to a network with internet access via the Ethernet connection.
+Ensure that the Raspberry Pi is connected via Ethernet to the Internet.
+Log in to the Raspberry Pi (username ``pi`` and password ``raspberry``) and run the following commands in the terminal:
 
-Log in to the Raspberry Pi (default username is ``pi``, and default password is ``raspberry``), and in the terminal, run these commands:
+.. code-block:: console
 
-.. code-block:: bash
-
-    wget https://git.io/JeDUk -O install.sh
-    chmod +x install.sh
-    sudo ./install.sh
-
-Once the script has finished running, be sure to reboot.
-
-.. code-block:: bash
-
-    sudo reboot now
+    $ wget https://git.io/JeDUk -O install.sh
+    $ chmod +x install.sh
+    $ sudo ./install.sh
+    $ sudo reboot now
 
 Congratulations! Your Raspberry Pi is now set up to run Chameleon Vision!
 
-Once your Raspberry Pi has booted up again, you can run Chameleon Vision with this command in the terminal:
+Once the Raspberry Pi has rebooted, Chameleon Vision can be started with the following command:
 
-.. code-block:: bash
+.. code-block:: console
 
-    sudo java -jar chameleon-vision.jar
+    $ sudo java -jar chameleon-vision.jar
 
-And to get the latest version of Chameleon Vision...
+If a new version of Chameleon Vision is released, update it by running the following commands:
 
-.. code-block:: bash
+.. code-block:: console
 
-    wget https://git.io/JeDUL -O update.sh
-    chmod +x update.sh
-    sudo ./update.sh
+    $ wget https://git.io/JeDUL -O update.sh
+    $ chmod +x update.sh
+    $ sudo ./update.sh
 
-More information on getting Chameleon Vision to start automatically on boot-up is coming soon.
+.. note::
+    Instructions on starting Chameleon Vision automatically on boot are coming soon.
