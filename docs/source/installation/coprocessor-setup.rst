@@ -31,7 +31,7 @@ Once the Raspberry Pi has rebooted, Chameleon Vision can be started with the fol
 
     $ sudo java -jar chameleon-vision.jar
 
-If a new version of Chameleon Vision is released, update it by running the following commands:
+When a new version of Chameleon Vision is released, update it by running the following commands:
 
 .. code-block:: console
 

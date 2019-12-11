@@ -3,7 +3,6 @@
 PC Testing
 ================
 
-
 JDK Installation
 -----------------
 
@@ -23,15 +22,8 @@ If your version is older than JDK 12, follow the instructions below.
 Installing JDK 12
 ^^^^^^^^^^^^^^^^^^^
 
-Windows
-~~~~~~~~~
+Follow the relevant instructions for your platform `here <https://bell-sw.com/pages/liberica_install_guide-12.0.2/>`_.
 
-Download and run the installer from the `oracle website <https://www.oracle.com/technetwork/java/javase/downloads/index.html>`_ and follow the installation instructions.
-
-Linux
-~~~~~~~~~
-
-Follow `this <https://bell-sw.com/pages/liberica_install_guide-12.0.2/>`_ guide.
 
 Installing Chameleon Vision
 -----------------------------

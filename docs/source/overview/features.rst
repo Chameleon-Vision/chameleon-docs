@@ -29,7 +29,7 @@ Easy Customization
 ^^^^^^^^^^^^^^^^^^^^
 
 Each camera connected to Chameleon Vision can have individual resolution, FPS, brightness, and exposure settings.
-The camera views are visible from the Driver Station and can be sent a lower resolutions to conserve bandwidth.
+The camera views are visible from the Driver Station and can be sent at lower resolutions to conserve bandwidth.
 This customization allows you to ensure that Chameleon Vision works how you want it to.
 
 Driver Mode

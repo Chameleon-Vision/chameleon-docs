@@ -36,7 +36,7 @@ These cameras are *mostly compatible*, but come with *no guarantees* as to full 
 
 .. warning::
 
-	These cameras are currently NOT compatible with Chameleon Vision yet.
+	These cameras are NOT yet compatible with Chameleon Vision.
 	Please :ref:`contact us<contact-us>` if you wish to use one of these cameras.
 
 	- Pi Camera Module (all versions)
