@@ -36,6 +36,7 @@ vision proccesing on their robots.
    getting-started/robot-code-example
    getting-started/command-line
    getting-started/networktables
+   getting-started/stream-compression
 
 .. toctree::
    :maxdepth: 2
