@@ -1,50 +1,41 @@
 .. _networktables:
 
-Networktables
-================
+NetworkTables
+===============
 
+NetworkTables is a communication protocol used between the roboRIO and other devices on the network.
+For more information, see the `frc-docs article <https://frc-docs.readthedocs.io/en/latest/docs/software/networktables/networktables-intro.html>`_.
 
-| Network tables are a way of communication between the RoboRIO and other devices on the robot's network like the driver's PC and the coprocessor that runs Chameleon Vision.
+NetworkTables acts like shared folder which is accessable by all connected devices.
+Every folder can have sub-folders which can also have files.
+These are called "tables", "subtables", and "entries".
+Each entry has both a name, type, and a value.
 
-| You can think of Network tables as a shared folder accessable from all network devices.
-| Each folder can have another folder(s) and or data(s) inside. Every data field has a `key` and a `value`
-| To view the network table you can use a java program from WPI lib called outlineviewer.
-
-.. explanation about what it is, and outlineviewer...
+A program called OutlineViewer can be used to view the NetworkTable entries and is included with your WPILib install.
 
 .. image:: /images/outlineviewer.png
    :width: 600
 
-| You can see the base folder `Root` that has `chameleon-vision` and `CameraPublisher` under it.
-| Under `chameleon-vision` there is the camera name, in this case `TurretCam` and under it there are the pipeline results.
+Chameleon Vision stores its entries in a table called `chameleon-vision`.
+Each camera will be in a subtable with it's name, say, `TurretCam`.
+The TurretCam table will contain the pipeline information, detailed below.
 
-+------------+------------+------------------------------+
-|   key      | value type | purpose                      |
-+============+============+==============================+
-|    pitch   |   double   | Target's vertical angle      |
-+------------+------------+------------------------------+
-|     yaw    |   double   | Target's horizontal angle    |
-+------------+------------+------------------------------+
-|  pipeline  |   double   | Index of pipeline to execute |
-+------------+------------+------------------------------+
-|  timestamp |   double   | Result timestamp             |
-+------------+------------+------------------------------+
-| driver_mode|   boolean  | Should enable driver mode    |
-+------------+------------+------------------------------+
-|  is_valid  |   boolean  | Is result valid              |
-+------------+------------+------------------------------+
+- pitch (double)
+    The vertical angle to the target in degrees.
 
-Changeable values
--------------------
-If a device on the network for example the RoboRIO or the driver's PC changes one of these values the program will react to it
+- yaw (double)
+    The horizontal angle to the target in degrees.
 
-- pipeline: the index number of the pipeline that the program should execute. If it changes the program will execute the pipeline that has a index as the number it received.
+- pipeline (editable double)
+    The index of the current pipeline Chameleon Vision should run.
+    Change this to switch between pipelines.
 
-- driver_mode: When the driver wants to use the camera for driving he can turn this boolean to `true` and Chamelon Vision will not process the image and wont draw on it. It will also set brightness and exposure to values defined under :ref:`camera adjustments<camera-adjustments>`
+- timestamp (double)
+    The time the result was taken.
+    For more details, see :ref:`here<timestamp>`.
 
+- driver_mode (editable boolean)
+    Setting this to true enables the :ref:`Driver Mode<camera-adjustments>`.
 
-Values explained further
--------------------------------
-- timestamp: by syncing the RoboRIO and the coprocessor's clock the RIO can see how long ago did the image that led to the pipeline results was taken. This can help overcome the delay that is caused because the processing time. You can read about it :ref:`here<timestamp>`
-
-- is_valid: If the processing had an error i.e no target was found, `is_valid` will be set to `false`.
+- is_valid (boolean)
+    Whether or not a a target was found.
