@@ -2,21 +2,23 @@ User Interface
 ==============
 
 Opening the UI
-------------------
+----------------
 
-In order to connect to the UI you will need to enter in a web browser the Chameleon Vision's computer IP followed by ``:``  and the :ref:`webserver port<webserver-port>`
-
-For example if the coprocessor's ip is 10.15.77.13 and the port is 5800 then enter in the browser ``10.15.77.13:5800``
+To connect to the Chameleon Vision UI you will need to enter in the web address.
+The web address is the ``<coprocessor-IP>:<port>``.
+The port defaults to 5800 and the coprocessor's IP address will be in the form 10.TE.AM.XX.
+If you are testing on a desktop computer you can use ``localhost`` in place of the IP address.
+For example, an IP address of 10.15.77.13 and a port of 5800, the web address will be ``10.15.77.13:5800`.
 
 .. _learn-ui:
 
-Getting familiar with the UI
------------------------------
+Getting Familiar with the UI
+------------------------------
 
 The user interface has two main tabs, you can switch between them in the top-right corner:
 
-- The Vision tab: allows teams to tune their pipeline values, it updates in real-time.
-- The Settings tab: configures networking and camera settings that don't change often like the camera's resolution
+- **Vision**: Allows teams to configure pipeline settings with a live preview.
+- **Settings**: For configuring networking and camera settings.
 
 .. image:: /images/UI/homePage.PNG
    :width: 600
@@ -26,10 +28,10 @@ The user interface has two main tabs, you can switch between them in the top-rig
 
 .. _learn-ui-vision:
 
-Vision tab
+Vision Tab
 ^^^^^^^^^^^^
 
-The vision tab updates the processed image in real-time to help you tune and adjust the vision values
+The Vision tab displays the processed image in real-time to help teams tune and adjust the pipeline setup.
 
 .. raw:: html
 	
@@ -38,21 +40,27 @@ The vision tab updates the processed image in real-time to help you tune and adj
 		Your browser does not support the video tag.
 	</video>
 
-When configuring the vision pipeline, there are four main steps (one per tab): input, thresholding, contour sorting and output.
+There are five steps to configuring a vision pipeline:
+
+#. Camera and Pipleine Selection
+#. Input
+#. Threshold
+#. Conoturs
+#. Output
 
 
-
-Camera and pipeline selection
+Camera and Pipeline Selection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| Choose one camera from the drop-down menu.
-| The list contains :ref:`detected cameras<detected-cameras>`.
+On the left side there is a dropdown labelled "Camera".
+This list contains all :ref:`detected cameras<detected-cameras>`.
+The pen icon can be used to rename the camera.
 
-| Every camera has at least one pipeline but you can add more 
-| You might want to rename the camera and the pipeline(s) so it will be clearer which camera is which and the pipeline's purpose
-| When you change and adjust values in the following steps you will change the settings of the pipeline currently selected
+On the right side there is a dropdown labelled "Pipeline".
+These pipelines contain different settings and they can be easily switched between.
+Any edited configurations will apply only to the selected pipeline.
 
-.. image:: /images/UI/cameraPipelineSelect.PNG
+.. image:: /images/UI/cameraPipelineSelect.png
 
 
 .. _learn-ui-input:
@@ -60,7 +68,7 @@ Camera and pipeline selection
 Input
 ~~~~~~
 
-The input tab adjust camera exposure settings and camera orientation:
+The input tab allows the adjustment of camera exposure, brightness, and orientation:
 
 .. image:: /images/UI/lowExposure.PNG
    :width: 600
@@ -70,7 +78,9 @@ The input tab adjust camera exposure settings and camera orientation:
 Threshold
 ~~~~~~~~~~
 
-The thresholding tab allows teams to adjust the Hue/Saturation/Value settings to only allow in parts of the image that are the same color as the vision tape, as well as allows teams to erode or dilate the contours to eliminate small speckles
+The thresholding tab allows teams to adjust the Hue/Saturation/Value (HSV) thresholds.
+This allows only parts of the images within the thresholds to be detected, such as when configured for vision tape.
+Teams can also enable erode and dilate for eliminating speckles.
 
 For a more in depth explanation of erode and dilate visit `opencv's page <https://docs.opencv.org/2.4/doc/tutorials/imgproc/erosion_dilatation/erosion_dilatation.html#morphological-operations>`_
 
@@ -149,13 +159,14 @@ Resolution and fps for each :ref:`detected cameras<detected-cameras>`
 Camera Adjustments 
 ~~~~~~~~~~~~~~~~~~
 
-This tab contains driver mode and 3d settings for each camera.
-Driver mode is a option that the vision processing wont run and wont disturb the driver so he could use the camera. In this tab you can set the brightness and exposure for each :ref:`detected cameras<detected-cameras>`.
+This tab contains the Driver Mode and 3D settings for each camera.
+Driver Mode disables the overlays on the streamed camera output, making it easier for the driver to see.
+In this tab you can set the brightness and exposure for each :ref:`detected cameras<detected-cameras>`.
 
 .. note::
    It might take a couple of seconds for the camera to switch its exposure settings so switching driver mode on or off can cause a problem with the vision processing/ the driver's view for a few seconds
 
-You can also calibrate your 3D model as explained :ref:`here<solvePNP>`
+You can also calibrate your 3D model as explained :ref:`here<solvePNP>`.
 
 Saving changes
 ------------------
