@@ -33,8 +33,8 @@ Follow `this <https://bell-sw.com/pages/liberica_install_guide-12.0.2/>`_ guide.
 Download and Run
 ----------------------------------	
 
-To download the latest .jar file click `here
-<https://sourceforge.net/projects/chameleon-vision/files/latest/download/>`_.
+Get the latest release from `here
+<https://github.com/Chameleon-Vision/chameleon-vision/releases/>`_.
 
 Rename the file you downloaded to ``chameleon-vision.jar``.
 
