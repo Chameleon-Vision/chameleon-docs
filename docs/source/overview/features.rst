@@ -8,20 +8,32 @@ Filter out your target from the background with HSV (Hue, Saturation, Value) and
 
 Offset Calibration
 ^^^^^^^^^^^^^^^^^^^^
-More often than not, it is not possible and/or inconvenient to place the camera in the center of the robot. Using special Chameleon Vision tools, it is easy to make a software fix for the physical offset from the true center.
+
+Oftentimes, it is difficult to place the camera in the direct center of the robot.
+Chameleon Vision contains special tools to fix the incorrect positioning.
 
 
-Widespread Camera Support
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Chameleon Vision supports a large family of :ref:`USB cameras<supported-cameras>`. This allows you to get the most flexibility compared to other solutions. The Chameleon Vision Team recommends the PS3ye Camera (found on Amazon and other vendors) for maximum performance. 
+Wide Range of Supported Hardware
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. note:: The Pi Camera and all network cameras are both NOT currently supported.
+Chameleon Vision supports a wide range of both :ref:`coprocessors<supported-coprocessors>` and :ref:`cameras<supported-cameras>`.
+This allows for the maximum amount of flexibility in both performance and cost.
+
+For optimal performance, the Chameleon Vision Team recommends the Raspberry Pi 4 and the PS3Eye (available via online retailers).
+
+.. warning::
+    The Pi Camera Module and all Network Cameras are **NOT** yet supported.
 
 
 Easy Customization
-^^^^^^^^^^^^^^^^^^^^^^
-Chameleon Vision can set resolution, FPS, brightness, and exposure for each USB camera that it has :ref:`detected<detected-cameras>`. It also publishes the camera view, which is divisible to save bandwidth. This customization allows you to ensure that Chameleon Vision works how you want it to.
+^^^^^^^^^^^^^^^^^^^^
 
-Driver Mode Settings
-^^^^^^^^^^^^^^^^^^^^^^
-Furthermore, cameras can be used as a driver's camera during a match through a setting called "Driver Mode", allowing you to take advantage of the software speed.
+Each camera connected to Chameleon Vision can have individual resolution, FPS, brightness, and exposure settings.
+The camera views are visible from the Driver Station and can be sent at lower resolutions to conserve bandwidth.
+This customization allows you to ensure that Chameleon Vision works how you want it to.
+
+Driver Mode
+^^^^^^^^^^^^^
+
+Cameras can also be configured to be passed to the Driver Station using the "Driver Mode" setting.
+This allows the driver to take advantage of Chameleon Vision's speed in game.

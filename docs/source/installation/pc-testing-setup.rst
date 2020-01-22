@@ -3,49 +3,40 @@
 PC Testing
 ================
 
-
 JDK Installation
 -----------------
 
-The program requires JDK Version 12 or newer.
+Chameleon Vision requires JDK Version 12 or newer.
+To check whether you are running a compatible version, type ``$ java --version``. 
+You should see a result similar to the one below:
 
-How do you know that version are you running?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. code-block:: console
 
-Run ``java -version`` in your command line. You should see a similar result:
+	$ java --version
+	java version "12.0.2" 2019-07-07
+	Java(TM) SE Runtime Environment (build 12.0.2+10)
+	Java HotSpot(TM) 64-bit Server VM (build 12.0.2+10, mixed mode, sharing)
 
-.. image:: /images/installation/java-version.png
+If your version is older than JDK 12, follow the instructions below.
 
 Installing JDK 12
 ^^^^^^^^^^^^^^^^^^^
 
-Windows
-~~~~~~~~
-
-Download JDK 12 from this `link <https://www.oracle.com/technetwork/java/javase/downloads/index.html>`_ and install .
+Follow the relevant instructions for your platform `here <https://bell-sw.com/pages/liberica_install_guide-12.0.2/>`_.
 
 
-Linux
-~~~~~~~~~
+Installing Chameleon Vision
+-----------------------------
 
-Follow `this <https://bell-sw.com/pages/liberica_install_guide-12.0.2/>`_ guide.
+Chameleon Vision is available for download from the `GitHub repository. <https://github.com/Chameleon-Vision/chameleon-vision/releases>`_.
+The file should be named ``chameleon-vision-X.X-RELEASE.jar``, varying with the current version number.
 
-Download and Run
-----------------------------------	
+Then, open a terminal in the folder with the downloaded JAR file and run the following command, replacing ``X.X`` with the latest version number.
 
-Get the latest release from `here
-<https://github.com/Chameleon-Vision/chameleon-vision/releases/>`_.
+.. code-block:: console
 
-Rename the file you downloaded to ``chameleon-vision.jar``.
-
-Open a command line in the folder with the JAR file you just downloaded, and run the following:
-
-.. code-block:: bash
-
-	java -jar chameleon-vision.jar --unmanage-network
+	$ java -jar chameleon-vision-X.X-RELEASE.jar --unmanage-network
 
 .. warning::
-	
-	When running the program on testing computer, use the ``--unmanage-network``  :ref:`argument<command-line-arguments>`.
-	Otherwise your network settings might be changed.
 
+	Take care to use the ``--unmanage-network`` :ref:`argument<command-line-arguments>`, as without it it will change your network setup.
