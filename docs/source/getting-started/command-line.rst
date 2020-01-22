@@ -28,7 +28,7 @@ Platform
 
 It will also print a line similar to this:
 
-.. code-block::
+.. code-block:: console
 
 	Starting Chameleon Vision on platform Windows x64
 
@@ -42,7 +42,7 @@ Camera Initialization
 
 For each camera detected by Chameleon Vision the text below with be printed, followed by the initialization time.
 
-.. code-block::
+.. code-block:: console
 
 	CS: <camera-name>: Connecting to USB camera on <camera-path>
 
@@ -62,6 +62,6 @@ NetworkTable State
 The program will print the below message if it was unable to connect the a NetworkTable server instance.
 The server IP address can be configured as specified in :ref:`Command Line Arguments<command-line-arguments>`.
 
-.. code-block::
+.. code-block:: console
 
 	NT Connection has failed!
