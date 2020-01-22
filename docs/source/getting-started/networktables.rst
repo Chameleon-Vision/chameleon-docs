@@ -40,7 +40,7 @@ If a device on the network for example the RoboRIO or the driver's PC changes on
 
 - pipeline: the index number of the pipeline that the program should execute. If it changes the program will execute the pipeline that has a index as the number it received.
 
-- driver_mode: When the driver wants to use the camera for driving he can turn this boolean to `true` and Chamelon Vision will not process the image and wont draw on it. It will also set brightness and exposure to values defined under :ref:`camera adjustments<camera-adjustments>`
+- driver_mode: When the driver wants to use the camera for driving, they can turn this boolean to `true` and Chamelon Vision will not process the image and won't draw on it. It will also set brightness and exposure to values defined under :ref:`camera adjustments<camera-adjustments>`
 
 
 Values explained further
