@@ -16,7 +16,7 @@ Webserver Port
 
 When the program initializes it will print a line similar to this:
 
-.. code-block::
+.. code-block:: console
 
 	Starting Webserver at port 5800
 
