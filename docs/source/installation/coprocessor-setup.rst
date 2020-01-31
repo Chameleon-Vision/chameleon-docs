@@ -39,5 +39,16 @@ When a new version of Chameleon Vision is released, update it by running the fol
     $ chmod +x update.sh
     $ sudo ./update.sh
 
-.. note::
-    Instructions on starting Chameleon Vision automatically on boot are coming soon.
+Running Chameleon at Startup
+----------------------------
+
+An easy way to run Chameleon at startup is through a Cron job. Crontab is a unix program that lets you run different commands periodically, including at startup. To edit the list of Cron jobs, run the command
+.. code-block:: console
+    $ crontab -e
+and pick your favorite text editor (if you don't know which one to use, pick nano).
+Go to the end of the file and enter
+.. code-block:: console
+    @reboot sudo java -jar chameleon-vision.jar
+    
+as the last line. Exit the file (in nano, this is control+x, and then y to confirm).
+This creates a cron job that will run the command to start Chameleon every time you turn on your pi.
