@@ -39,5 +39,32 @@ When a new version of Chameleon Vision is released, update it by running the fol
     $ chmod +x update.sh
     $ sudo ./update.sh
 
-.. note::
-    Instructions on starting Chameleon Vision automatically on boot are coming soon.
+Run on Startup With Systemd
+---------------------------
+
+Create a Service
+
+.. code-block:: console
+
+    $ sudo nano /etc/systemd/system/chameleon.service
+	    [Unit]
+	    Description=Chameleon Vision
+        Wants=network-online.target
+	    After=network-online.target
+
+	    [Service]
+	    Type=simple
+	    ExecStart=
+	    ExecStart=java -jar /home/pi/chameleon.jar
+
+	    [Install]
+	    WantedBy=multi-user.target
+
+Enable the Daemon and its Dependencies
+
+.. code-block:: console
+
+    $ sudo systemctl daemon-reload
+    $ sudo systemctl enable systemd-networkd-wait-online.service
+    $ sudo systemctl start chameleon.service
+    $ sudo systemctl enable chameleon.service
