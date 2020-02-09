@@ -5,7 +5,7 @@ Auto Startup
 -----------------
 Using Chameleon Vision UI you can run your software at startup with just one click.
 Under General Settings you'll see an option called ``Install or Update``
-clicking the ``Install current version`` button will make chameleon vision run at startup
+clicking the ``Install current version`` button will make chameleon vision run at startup.
 .. image:: /images/UI/generaltab.PNG
 
 Version Upgrade
