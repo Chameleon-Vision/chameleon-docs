@@ -23,6 +23,8 @@ Chameleon Vision is a free open-source software that allows FRC teams to easily 
  
    installation/coprocessor-setup
    installation/pc-testing-setup
+   installation/startup-and-upgrade
+   
 
 .. toctree::
    :maxdepth: 2
