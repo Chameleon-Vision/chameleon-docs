@@ -23,6 +23,7 @@ vision proccesing on their robots.
  
    installation/coprocessor-setup
    installation/pc-testing-setup
+   installation/startup-and-upgrade
 
 .. toctree::
    :maxdepth: 2
