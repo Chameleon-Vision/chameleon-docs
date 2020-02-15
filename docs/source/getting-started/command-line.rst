@@ -1,4 +1,4 @@
-Command Lline Information
+Command Line Information
 ===========================
 
 When running Chameleon Vision a lot of information is displayed in the output of the terminal.
