@@ -48,7 +48,7 @@ After you complete the callibration process, on the command line, you'll see:
 - Camera Matrix
 
    - The camera matrix is a 3 by 3 matrix as show below
-   - .. image:: /images/solvepnp/camera_matrix.PNG
+   - .. image:: /images/solvepnp/camera_matrix.png
    - **fx** and **fy** : These are the focal lengths of the camera expressed in pixels
    - **cx** and **cy** : These are the principal points and refer to the image center 
    - The camera matrix will be affected by any change in resolution and hence, you will need to recalibrate.
