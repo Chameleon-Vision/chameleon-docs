@@ -28,7 +28,7 @@ We can then use that information to correct the distortion errors.
 
 For example, below you can see a chessboard that is undistorted. To the right, you can see an example of exaggerated radical and tangential distortions of the same chessboard taken from a camera. 
 
-.. image:: /images/solvepnp/distortion.PNG
+.. image:: /images/solvepnp/distortion.png
    :alt: Calibration using the provided chessboard image.
 
 
@@ -83,7 +83,7 @@ The closer the error is to 0, the better the callibration.
 Before enabling 3D tracking, calculate the pitch between the horizontal axis and the optical axis of your camera and enter
 it into the **Camera Pitch** field in the chameleon UI.
 
-.. image:: /images/solvepnp/pitch.PNG
+.. image:: /images/solvepnp/pitch.png
 
 
 In the NT table, after enabling 3D tracking, you will see a **targetPose** double array. These are:
@@ -92,7 +92,7 @@ In the NT table, after enabling 3D tracking, you will see a **targetPose** doubl
 - pose[1]: Y distance, which is the distance from the target, perpendicular to the optical axis (meters)
 - pose[2]: The angle between the target plane and the optical axis (degrees)
 
-.. image:: /images/solvepnp/targetPose.PNG
+.. image:: /images/solvepnp/targetPose.png
    :alt: Source: Ligerbots vision
 
 
