@@ -59,7 +59,6 @@ After you complete the callibration process, on the command line, you'll see:
    - distortion coefficents are vectors of up to 8 parameters, formated like : **k1, k2, p1, p2 [, k3 [, k4, k5, k6]]**
    - **k1, k2..** are radical distortion coefficents
    - **p1, p2...** are tangential distortion coefficents
-   - The distortion do not change based off the camera resolution, so the distortion coefficents will be the same for 640 x 480 images and 320 x 240 images
 
 Now that we have the camera matrix and distortion coefficents, the final parameter we need is the real world coordinates.
 These coordinates are derived by using the corners of your target in 3D space, for example, following the format:
