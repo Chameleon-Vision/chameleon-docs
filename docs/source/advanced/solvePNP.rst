@@ -77,7 +77,7 @@ be uploaded as a .csv file.
 
 Now that we have callibrated the camera, and found the 3D world coordinates, we can now use this information to:
 
-- Undisort an image recieved from the camera
+- Undistort an image received from the camera
 - Using the 3D world coordinates and 2D target coordinates from the image, the SolvePNP() function returns the camera pose using the camera matrix and distortion coefficents
 - Returns a re-projection .. error
 
