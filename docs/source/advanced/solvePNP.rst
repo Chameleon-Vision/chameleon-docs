@@ -88,7 +88,6 @@ Before enabling 3D tracking, calculate the pitch between the horizontal axis and
 it into the **Camera Pitch** field in the chameleon UI.
 
 .. image:: /images/solvepnp/pitch.PNG
-   :alt: Source: Research Gate
 
 
 In the NT table, after enabling 3D tracking, you will see a **targetPose** double array. These are:
