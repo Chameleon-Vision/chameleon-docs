@@ -1,4 +1,4 @@
-Featuresg
+Features
 ========
 
 Filtering
