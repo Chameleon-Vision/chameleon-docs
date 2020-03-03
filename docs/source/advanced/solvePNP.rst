@@ -26,8 +26,7 @@ By finding how much radical or tangential distortion there is, we can then undis
 In order to measure the amount of distortion, we can take pictures of an image with a known shape and see how much the camera distorts that image.
 We can then use that information to correct the distortion errors.
 
-For example, below you can see a chessboard that is undistorted. To the right, you can see a radical and tangential distortions
-of the same chessboard taken from a pinhole camera. 
+For example, below you can see a chessboard that is undistorted. To the right, you can see an example of exaggerated radical and tangential distortions of the same chessboard taken from a camera. 
 
 .. image:: /images/solvepnp/distortion.PNG
    :alt: Calibration using the provided chessboard image.
