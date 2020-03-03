@@ -51,10 +51,8 @@ After you complete the callibration process, on the command line, you'll see:
    - .. image:: /images/solvepnp/camera_matrix.PNG
    - **fx** and **fy** : These are the focal lengths of the camera expressed in pixels
    - **cx** and **cy** : These are the principal points and refer to the image center 
-   - The camera matrix will be scaled proportionally to any change in resolution. For example, if resolution goes from 640 x 480 to 320 x 240 images
+   - The camera matrix will be affected by any change and resolution and hence, you will need to recalibrate.
    
-      - **fx** and **cx**: These will be multiplied by (new resolution x / old resolution x) or in the example, (320 / 640)
-      - **fy** and **cy**: These will be multiplied by (new resolution y / old resolution y) or in the example, (240 / 480)
 
 - Distortion Coefficents
 
