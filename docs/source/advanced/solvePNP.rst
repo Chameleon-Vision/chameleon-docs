@@ -64,7 +64,7 @@ After you complete the callibration process, on the command line, you'll see:
    - The distortion do not change based off the camera resolution, so the distortion coefficents will be the same for 640 x 480 images and 320 x 240 images
 
 Now that we have the camera matrix and distortion coefficents, the final parameter we need is the real world coordinates.
-These coordinates are derived by using the corners of your target in 3D space, following the format:
+These coordinates are derived by using the corners of your target in 3D space, for example, following the format:
 
    - -targetwidth/2, targetheight/2, 0
    - -targetwidth/2, -targetheight/2, 0
