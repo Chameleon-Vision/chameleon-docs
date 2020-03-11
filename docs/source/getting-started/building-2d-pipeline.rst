@@ -10,8 +10,9 @@ Step 0: :ref:`Settings<learn-ui-settings>`
 Before we start, make sure you have configured the settings correctly.
 Ensure that your:
 
-* team number is set correctly
-* coprocessor has a static IP address (such as 10.TE.AM.13)
+* Team number is set correctly in Chameleon Vision UI
+* Coprocessor has a static IP address (such as 10.TE.AM.11)
+* Static IP is set within Chameleon Vision settings
 
 It is also best to have the maximum FPS.
 This can generally be achieved by decreasing the resolution of the camera.
