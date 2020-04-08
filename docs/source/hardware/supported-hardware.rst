@@ -27,6 +27,7 @@ Using one of these cameras is highly recommended for the best experience.
 
 - PS3 Eyecam (Linux only)
 - Microsoft LifeCam HD-3000
+- Pi Camera Module (all versions)
 
 These cameras are *mostly compatible*, but come with *no guarantees* as to full compatibility.
 
@@ -39,5 +40,4 @@ These cameras are *mostly compatible*, but come with *no guarantees* as to full 
 	These cameras are NOT yet compatible with Chameleon Vision.
 	Please :ref:`contact us<contact-us>` if you wish to use one of these cameras.
 
-	- Pi Camera Module (all versions)
 	- Network Cameras (such as the Axis Camera)
