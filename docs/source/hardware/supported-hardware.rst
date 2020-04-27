@@ -37,7 +37,5 @@ These cameras are *mostly compatible*, but come with *no guarantees* as to full 
 
 .. warning::
 
-	These cameras are NOT yet compatible with Chameleon Vision.
+	Network Cameras (such as the Axis Camera) are NOT yet compatible with Chameleon Vision.
 	Please :ref:`contact us<contact-us>` if you wish to use one of these cameras.
-
-	- Network Cameras (such as the Axis Camera)
