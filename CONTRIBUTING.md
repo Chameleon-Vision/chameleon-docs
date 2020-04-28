@@ -24,4 +24,4 @@ All images and gifs should be under `source/images/` in a folder named after the
 
 ## Contributing
 
-Create a branch (or fork), make your changes, then create a pull requests and we will take a look at it then accept it and it will be build to the online documentation 
+Create a branch (or fork), make your changes, then create a pull requests and we will take a look at it then accept it and it will be built to the online documentation 
