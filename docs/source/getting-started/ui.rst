@@ -26,6 +26,8 @@ The user interface has two main tabs, you can switch between them in the top-rig
 .. image:: /images/UI/generaltab.PNG
    :width: 600
 
+.. Todo update images
+
 .. _learn-ui-vision:
 
 Vision Tab
@@ -121,6 +123,30 @@ The output tab controls how the contours which make it through thesholding and f
 
 
 This tab also allows teams to perform crosshair calibration. Instead of offsetting values in code, teams can line up their robot perfectly by hand, click "calibrate A" and "calibrate B", and the crosshair will be set to the current position. If the robot needs to shoot gamepieces into a goal from different distances, teams can calibrate A at their closest scoring position and B at their furthest scoring location, and the crosshair will linearly interpolate between the two offsets based on distance (area) from the target.
+
+.. _learn-ui-stream:
+
+Stream
+~~~~~~~~
+
+The stream tab controls settings for the video stream of each camera. 
+
+.. note::
+	These settings are per pipeline and NOT per camera.
+
+	Just to clearify, this is an FPS limit of the video stream, NOT the processing frame rate which is usually way higher
+
+You can adjust the FPS, 30 is recommended for driving and lower frame rates can be better for an intake system for example.
+
+You can also scale down the image with ``Stream Resolution`` to save bandwidth (at the cost of video quailty). This features divides the resolution by a number so a high resolution video can be resized by 6:1 ratio but resizing a low resolution image by this ratio will cause visual items like the crosshair to disappear. Its recommended to tweak the settings with ``Original`` or ``High`` Stream Resolution in this case.
+
+1. Original - 1:1, not resized
+2. High - 2:1
+3. Medium - 4:1
+4. Low - 6:1
+
+.. image:: /images/UI/streamTab.gif
+   :width: 600
 
 
 3D 

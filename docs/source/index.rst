@@ -37,6 +37,7 @@ Chameleon Vision is a free open-source software that allows FRC teams to easily 
    getting-started/robot-code-example
    getting-started/command-line
    getting-started/networktables
+   getting-started/stream-compression
 
 .. toctree::
    :maxdepth: 2
